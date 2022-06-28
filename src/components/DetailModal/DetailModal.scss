@@ -1,0 +1,55 @@
+.modal-detail {
+
+    font-size: .85rem;
+
+    .table{
+        color: var(--bs-dark);
+    }
+    
+    .modal-content {
+        background-color: var(--bs-gray-200);
+    }
+
+    .modal-button {
+        min-width: 90px;
+    }
+
+    .modal-header {
+
+        .modal-title {
+            font-weight: bold;
+            font-size: .9rem;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+    }
+
+    .table {
+        margin-bottom: 0;
+    }
+
+    th {
+        width: 140px;
+        color: var(--bs-dark);
+        font-weight: normal;
+    }
+
+    td {
+        &::before {
+            content: ': ';
+        }
+    }
+
+    .modal-footer {
+        padding-top: 0;
+        border-top: none;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .modal-detail {
+        font-size: .9rem;
+    }
+
+}

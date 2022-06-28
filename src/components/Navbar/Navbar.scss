@@ -1,0 +1,96 @@
+.navbar {
+    min-width: 400px;
+
+    .logo {
+        height: 25px;
+        margin: 0 10px 0 0;
+        display: inline-block;
+    }
+
+    .navbar-nav {
+        flex-direction: row;
+
+        .nav-link {
+            font-size: .8rem;
+            margin: 0 3px;
+        }
+    }
+
+    .btn-toggle {
+        background-color: transparent;
+        padding: 0 6px;
+        color: #ff9c00;
+        border: none;
+
+        svg {
+            width: 26px;
+            height: 26px;
+            fill: currentColor;
+        }
+
+        &:hover {
+            color: #f4b857;
+        }
+    }
+
+    .btn {
+
+        padding: 0 0.3rem;
+        font-size: .8rem;
+        line-height: 1;
+        height: 30px;
+        vertical-align: middle;
+        display: inline-block;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .navbar {
+
+        .logo {
+            display: inline-block;
+            margin: 0 15px 0 5px;
+            height: 35px;
+        }
+
+        .btn {
+            height: auto;
+            line-height: 1.5;
+            padding: 0.375rem 0.75rem;
+            font-size: 1rem;
+        }
+
+        .navbar-nav {
+
+            .nav-link {
+                font-size: 1rem;
+                margin: 0 8px;
+            }
+        }
+
+    }
+
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    padding: 0 10px;
+}
+
+@media (min-width: 1200px) {
+
+    .navbar-container {
+        width: 1200px;
+        padding: 0;
+    }
+
+}

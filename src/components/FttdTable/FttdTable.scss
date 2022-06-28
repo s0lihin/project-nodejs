@@ -1,0 +1,111 @@
+.app-table-fttd {
+
+    .app-theader,
+    .app-tbody {
+        .app-trow {
+
+            .app-tcol:nth-child(3) {
+                .form-control {
+                    width: 140px;
+                    min-width: 140px;
+                }
+            }
+
+            .app-tcol:nth-child(7) {
+
+                padding: 4px 0;
+
+                .label::after {
+                    content: ' ';
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .app-table-fttd {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol:nth-child(1) {
+                    min-width: 40px;
+                }
+
+                .app-tcol:nth-child(2) {
+                    min-width: 140px;
+                }
+
+                .app-tcol:nth-child(3) {
+                    min-width: 115px;
+
+                    .form-control {
+                        width: 110px;
+                        min-width: 110px;
+                        text-align: center;
+                    }
+                }
+
+                .app-tcol:nth-child(4) {
+                    min-width: 100px;
+
+                    .form-control {
+                        width: 95px;
+                        min-width: 95px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(5) {
+                    min-width: 70px;
+
+                    .form-control {
+                        width: 65px;
+                        min-width: 65px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(6) {
+                    min-width: 100px;
+
+                    .form-control {
+                        width: 90px;
+                        min-width: 90px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(7) {
+                    text-align: center;
+                    min-width: 30px;
+                }
+
+            }
+        }
+
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .app-table-fttd {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol {
+                    margin-right: 15px;
+                }
+
+            }
+        }
+
+    }
+}

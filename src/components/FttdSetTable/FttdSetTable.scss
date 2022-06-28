@@ -1,0 +1,107 @@
+.app-table-fttdset {
+
+    .app-theader,
+    .app-tbody {
+        .app-trow {
+
+            .app-tcol:nth-child(7) {
+
+                padding: 4px 0;
+                .label::after {
+                    content: ' ';
+                }
+            }
+
+        }
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .app-table-fttdset {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol:nth-child(1) {
+                    min-width: 40px;
+                }
+
+                .app-tcol:nth-child(2) {
+                    min-width: 140px;
+                }
+
+                .app-tcol:nth-child(3) {
+                    text-align: center;
+                    min-width: 90px;
+
+                    .form-control {
+                        width: 85px;
+                        min-width: 85px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(4) {
+                    text-align: center;
+                    min-width: 90px;
+
+                    .form-control {
+                        width: 80px;
+                        min-width: 80px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(5) {
+                    text-align: center;
+                    min-width: 85px;
+
+                    .form-control {
+                        width: 75px;
+                        min-width: 75px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(6) {
+                    text-align: center;
+                    min-width: 95px;
+
+                    .form-control {
+                        width: 95px;
+                        min-width: 95px;
+                        text-align: right;
+                    }
+                }
+
+                .app-tcol:nth-child(7) {
+                    text-align: center;
+                    min-width: 30px;
+                }
+
+            }
+        }
+        
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .app-table-fttdset {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol{
+                    margin-right: 15px;
+                }
+
+            }
+        }
+
+    }
+}

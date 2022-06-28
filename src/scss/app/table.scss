@@ -1,0 +1,201 @@
+.app-table-data,
+.app-table-form {
+    width: 100%;
+
+    .app-tbody {
+
+        .app-trow {
+            padding: 3px 0;
+            border-radius: 5px;
+            margin-bottom: 2px;
+        }
+
+    }
+
+    .label,
+    .value {
+        width: 50%;
+        display: inline-block;
+        font-size: .9rem;
+        line-height: 1.5;
+    }
+
+    .label {
+        color: #ffffff;
+        text-align: right;
+        padding-right: 10px;
+
+        &::after {
+            content: " :";
+        }
+    }
+
+    .value {
+        color: $gray-100;
+        text-align: left;
+    }
+
+    .btn {
+        min-width: 100px;
+    }
+
+}
+
+.app-table-form {
+
+    .label {
+        width: 45%;
+    }
+
+    .form-control {
+        display: inline-block;
+        width: 120px;
+        min-width: 120px;
+        display: inline-block;
+        margin: 1px;
+        text-align: left;
+        font-size: .9rem;
+    }
+
+    input.form-control {
+        padding: 0.2rem 0.3rem;
+
+        &:focus {
+            border-color: #bd842d;
+            outline: 0;
+            box-shadow: 0 0 0 0.25rem #f4cc86;
+        }
+
+    }
+
+    .form-control {
+
+        &.readonly {
+            padding: 0.05rem 0.75rem;
+            font-size: .8rem;
+        }
+
+        &.one-digit {
+            width: 30px;
+            min-width: 30px;
+            text-align: center;
+            margin: 1px 2px
+        }
+
+    }
+
+}
+
+
+@media (min-width: 576px) {
+
+    .app-table-form {
+
+        .label {
+            width: 50%;
+        }
+
+    }
+
+}
+
+@media (min-width: 768px) {
+
+
+    .app-table-data,
+    .app-table-form {
+
+        .app-theader,
+        .app-tfooter {
+            text-align: center;
+            font-size: .8rem;
+            border-radius: 5px;
+            margin-bottom: 2px;
+        }
+
+        .app-tfooter {
+            font-size: 1.2rem;
+
+            span{
+                line-height: 1;
+            }
+        }
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol {
+                    min-height: 20px;
+                    min-width: 100px;
+                }
+
+                .app-tcol:first-child {
+                    text-align: center;
+                }
+
+            }
+        }
+
+        .label {
+            display: none;
+            border-bottom: none;
+        }
+
+        .value {
+            width: auto;
+            border-bottom: none;
+            padding: 0.4rem 0;
+        }
+
+    }
+
+    .app-table-form {
+        .form-control.readonly {
+            width: auto;
+            display: block;
+            padding: 0.25rem 0.4rem;
+        }
+    }
+
+}
+
+.app-copy-bet {
+    padding: 5px 0;
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+.app-check-input {
+    .form-check-input {
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0;
+        border: 1px solid #d08c22;
+
+        &:checked {
+            background-color: #cd6206;
+            border-color: #5f3f0d;
+        }
+    }
+}
+
+.btn.btn-form {
+    min-width: 120px;
+    text-transform: capitalize;
+    font-size: .85rem;
+    text-shadow: 1px 1px #000000;
+
+    span {
+        line-height: 1;
+        vertical-align: middle;
+    }
+
+    svg {
+        line-height: 1;
+        vertical-align: middle;
+        width: 16px;
+        height: 16px;
+        margin-right: 4px;
+    }
+}

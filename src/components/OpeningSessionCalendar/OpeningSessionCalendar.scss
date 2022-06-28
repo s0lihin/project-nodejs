@@ -1,0 +1,28 @@
+.date-picker {
+
+    cursor: pointer;
+
+    .form-control {
+        border: solid 1px #cd6206;
+        cursor: pointer;
+        width: 120px !important;
+        font-size: .9rem;
+    }
+
+    svg {
+        margin-left: -30px;
+        margin-top: -5px;
+    }
+
+}
+
+@media (min-width: 576px) {
+
+    .date-picker {
+        .form-control {
+            width: 140px !important;
+            font-size: 1rem;
+        }
+    }
+  
+  }

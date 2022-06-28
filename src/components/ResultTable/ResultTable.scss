@@ -1,0 +1,32 @@
+
+@media (min-width: 768px) {
+
+    .app-table-result {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol:nth-child(1) {
+                    min-width: 50px;
+                }
+
+                .app-tcol:nth-child(2) {
+                    text-align: center;
+                    min-width: 140px;
+                }
+
+                .app-tcol:nth-child(3) {
+                    text-align: center;
+                    min-width: 140px;
+                }
+
+                .app-tcol:nth-child(4) {
+                    text-align: center;
+                    min-width: 140px;
+                }
+            }
+        }
+
+    }
+}

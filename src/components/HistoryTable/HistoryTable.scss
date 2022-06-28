@@ -1,0 +1,66 @@
+.app-table-history{
+    .app-tbody {
+        .value{
+            font-size: .85rem;
+        }
+    }
+    
+    .badge{
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px #000000;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .app-table-history {
+
+        .app-theader,
+        .app-tbody {
+            .app-trow {
+
+                .app-tcol:nth-child(1) {
+                    min-width: 40px;
+                }
+
+                .app-tcol:nth-child(2) {
+                    text-align: left;
+                    min-width: 105px;
+                }
+
+                .app-tcol:nth-child(3) {
+                    text-align: right;
+                    min-width: 90px;
+                }
+
+                .app-tcol:nth-child(4) {
+                    text-align: right;
+                    min-width: 100px;
+                }
+
+                .app-tcol:nth-child(5) {
+                    text-align: center;
+                    min-width: 60px;
+                }
+
+                .app-tcol:nth-child(6) {
+                    min-width: 110px;
+                    text-align: center;
+                }
+
+                .app-tcol:nth-child(7) {
+                    min-width: 70px;
+                    text-align: center;
+                }
+
+                .app-tcol:nth-child(8) {
+                    min-width: 60px;
+                    text-align: center;
+                }
+
+            }
+        }
+        
+    }
+}

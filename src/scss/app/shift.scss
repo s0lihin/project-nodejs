@@ -1,0 +1,53 @@
+.shifts {
+
+    padding: 10px;
+    margin: 0 0 15px 0;
+
+    .shift-item {
+        margin: 1px;
+        font-size: .85rem;
+        cursor: pointer;
+
+        span {
+            line-height: 1;
+
+            &:first-child {
+                width: 120px;
+                padding: 5px;
+            }
+
+            &:nth-child(2) {
+                width: 50px;
+                padding: 5px;
+                text-align: center;
+            }
+        }
+        
+    }
+
+    .group {
+        margin-bottom: 4px;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .shifts {
+        .shift-item {
+           
+            span {
+                
+                &:first-child {
+                    width: auto;
+                }
+    
+                &:nth-child(2) {
+                    width: auto;
+                }
+            }
+            
+        }
+    }
+  
+  }

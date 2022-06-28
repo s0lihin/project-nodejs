@@ -1,0 +1,19 @@
+.modal-confirmation {
+    .modal-header {
+    
+        .modal-title{
+            padding: 5px 0;
+            font-size: .9rem;
+            line-height: 1;
+            text-transform: uppercase;
+        }
+    }
+
+    .modal-body{
+        color: var(--bs-dark);
+    }
+
+    .modal-button {
+        min-width: 80px;
+    }
+}
